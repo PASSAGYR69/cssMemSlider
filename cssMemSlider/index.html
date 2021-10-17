@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <title>CSS Mem Slider</title>
+</head>
+<body>
+    <div class="slider-container">
+
+        <div class="my-slider">
+            <div><img src="jpg/mem-1.jpg" alt="img mem" class="img-class"></div>
+            <div><img src="jpg/mem-2.jpg" alt="img mem" class="img-class"></div>
+            <div><img src="jpg/mem-3.jpg" alt="img mem" class="img-class"></div>
+            
+            <div><img src="jpg/mem-5.jpg" alt="img mem" class="img-class"></div>
+            <div><img src="jpg/mem-6.jpg" alt="img mem" class="img-class"></div>
+        </div>          
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  
+    <script>
+        var slider = tns({
+            container: '.my-slider',
+            items: 1,
+            controlsPosition: 'bottom',
+            navPosition: 'bottom',
+            mouseDrag: true,
+            //controlsContainer: '#custom-control',
+            controls: false,
+            center: true,
+            
+
+        })
+    </script>
+
+</body>
+</html>
